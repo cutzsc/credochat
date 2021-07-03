@@ -16,4 +16,42 @@ body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
 }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.settings {
+  width: 32px;
+  height: 32px;
+}
+
+.settings .fas {
+  width: 32px;
+  height: 32px;
+}
 /*# sourceMappingURL=style.css.map */

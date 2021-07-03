@@ -1,2 +1,18 @@
 @import "variables";
 @import "globals";
+
+header {
+  h1 {
+    margin: 0;
+  }
+}
+
+.settings {
+  width: 32px;
+  height: 32px;
+
+  .fas {
+    width: 32px;
+    height: 32px;
+  }
+}
